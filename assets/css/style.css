@@ -74,10 +74,9 @@ p{
 	max-width: 1140px;
 	padding-left: 15px;
 	padding-right: 15px;
+	margin: 0 auto;
 }
-.d-flex{
-	display: flex;
-}
+
 .align-items-center{
 	align-items: center;
 }
@@ -138,9 +137,25 @@ Previous Story Style
 
 /*
 =================
-Header Style 
+My Planning Style 
 =================
 */
+.my-plan{
+	padding: 70px 0;
+}
+.planning-cards{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	margin-top: 70px;
+}
+.planning-card{
+	text-align: center;
+} 
+.planning-card h3{
+	margin-top: 18px;
+	margin-bottom: 12px;
+}
 /*
 =================
 Header Style 

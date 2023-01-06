@@ -80,6 +80,9 @@ p{
 .align-items-center{
 	align-items: center;
 }
+.p-right{
+	padding-right: 130px;
+}
 /*
 =================
 Header Style 
@@ -156,8 +159,125 @@ My Planning Style
 	margin-top: 18px;
 	margin-bottom: 12px;
 }
+
 /*
 =================
-Header Style 
+Positive Mindset
 =================
 */
+.positive-mindset{
+	padding: 40px 130px 90px 130px;
+}
+.mindset-box{
+	padding: 50px;
+	background: linear-gradient(to left, rgba(242,92,34,0.2),rgba(242,92,34,0.9)),url('../images/watch.png')top left/cover no-repeat;
+	border-radius: 5px;
+}
+.mindset-box h2{
+	color: #fff;
+	margin-bottom: 30px;
+}
+.mindset-box .btn-primary{
+	color: #F05A22;
+	background: #ffffff;
+}
+ .mindset-box .btn-primary:hover.btn-primary::before{
+	background: #7ED8F6;
+}
+.margin{
+	margin: 0 40px;
+}
+/*
+=================
+footer
+=================
+*/
+footer{
+	padding: 115px 130px;
+	background: #151414;
+}
+.footer-content{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+}
+.footer-content .contact-info{
+	width: 65%;
+}
+.footer-content .contact-info h2{
+	color: #fff;
+}
+.footer-content .contact-info .ft-para-1{
+	color: #fff;
+	width: 50%;
+	margin-top: 25px;
+}
+.footer-content .contact-info p{
+	color: #fff;
+	margin-top: 18px;
+}
+.social-icons{
+	margin-top: 35px;
+}
+.social-icons ul{
+	display: flex;
+}
+.social-icons ul li{	
+	margin-right: 15px;
+}
+.social-icons ul li a {
+    width: 25px;
+    height: 25px;
+    font-size: 24px;
+    padding: 8px;
+    display: inline-block;
+    color: #006AFF;
+    background: #fff;
+    border-radius: 50%;
+    line-height: 25px;
+}
+
+.social-icons ul li:nth-child(1) a i{
+	padding-left: 5px;
+}
+.social-icons ul li:nth-child(2) a i{
+	color: #1da1f2;
+}
+.social-icons ul li:nth-child(3) a i{
+	color: #FF0000;
+}
+
+.footer-content .subcribe-form{
+	width: 35%;
+}
+.footer-content .subcribe-form h3{
+	font-size: 22px;
+	color: #fff;
+	margin-top: 20px;
+}
+.footer-content .subcribe-form form input{
+	padding: 20px 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 70%;
+	font-size: 16px;
+	color: #fff;
+	background: transparent;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+::-webkit-input-placeholder{
+	color: #fff;
+}
+:-moz-input-placeholder{
+	color: #fff;
+}
+.footer-content .subcribe-form .btn-primary{
+	background: #fff;
+	color: #F15B22;
+	cursor: pointer;
+	font-size: 18px;
+}
+.subcribe-form .btn-primary:hover.btn-primary::before{
+	background: #7ED8F6;
+}
